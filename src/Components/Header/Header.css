@@ -25,3 +25,9 @@
 .highlight-text {
     color: rgb(9, 187, 9);
 }
+
+hr {
+    width: 60%;
+    background-color: green;
+    height: 0.8px;
+}
