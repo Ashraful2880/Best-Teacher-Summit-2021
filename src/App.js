@@ -1,14 +1,12 @@
 import './App.css';
-import Cart from './Components/Cart/Cart';
 import Header from './Components/Header/Header';
 import Teachers from './Components/Teachers/Teachers';
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <Header></Header>
         <Teachers></Teachers>
-        <Cart></Cart>
     </div>
   );
 }

@@ -27,7 +27,7 @@
 }
 
 hr {
-    width: 60%;
+    width: 60% !important;
     background-color: green;
     height: 0.8px;
 }
