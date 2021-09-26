@@ -1,0 +1,27 @@
+/*----------> Header Area Style Here <------------*/
+.header-container {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.header-text {
+    font-size: 40px;
+}
+
+.header-container h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    width: 40%;
+    line-height: 28px;
+    margin: auto;
+}
+
+.budget-text {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.highlight-text {
+    color: rgb(9, 187, 9);
+}
