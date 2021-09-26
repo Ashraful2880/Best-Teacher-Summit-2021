@@ -1,4 +1,4 @@
-# Best Programming Teacher Summit-2021
+# Best Programming Teacher Meet Up-2021
 
 This project was Vanila CSS with [Create React App](https://github.com/facebook/create-react-app).
 
