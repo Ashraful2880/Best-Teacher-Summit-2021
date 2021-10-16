@@ -1,14 +1,14 @@
 import React from 'react';
-import teacherStyle from './Teacher.css';
+import './Teacher.css';
 import {FiArrowRightCircle} from "react-icons/fi";
 
 const Teacher = (props) => {
     
     const {picture,name,age,gender,company,email,Cost}=props.teacher;
     return (
-        <div style={teacherStyle}>
+        <div>
             <div className="teacher-container">
-                <img src={picture} alt="programmerPhoto" />
+                <img className='teacher-image' src={picture} alt="programmerPhoto" />
                 <h2>Name: {name}</h2>
                 <h3>Age: {age}</h3>
                 <h3>Cost: {Cost}$</h3>

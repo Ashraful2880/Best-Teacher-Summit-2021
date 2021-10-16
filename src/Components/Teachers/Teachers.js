@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import React, { useEffect,useState } from 'react';
 import Cart from '../Cart/Cart';
 import Teacher from '../Teacher/Teacher';
-import teachersStyle from './Teachers.css';
+import './Teachers.css';
 
 const Teachers = () => {
     const [teachers,setTeachers]=useState([]);
@@ -18,7 +17,7 @@ const Teachers = () => {
         setCart(newCart);
     }
     return (
-       <div className="main-container" style={teachersStyle}>
+       <div className="main-container">
             <div className="teachers-container">
                 {
                     teachers.map(teacher=><Teacher 

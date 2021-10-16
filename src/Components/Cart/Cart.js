@@ -1,5 +1,5 @@
 import React from 'react';
-import cartStyle from './Cart.css';
+import './Cart.css';
 
 const Cart = (props) => {
     const{cart}=props;    
@@ -8,7 +8,7 @@ const Cart = (props) => {
         cost=cost+teacher.Cost;     
     }
     return (
-        <div className='cart-div' style={cartStyle}>
+        <div className='cart-div'>
             <h2 className="cart-head">Added Awesome Teachers</h2>
             <hr />
             <h3>Total Teachers: {props.cart.length} </h3>
